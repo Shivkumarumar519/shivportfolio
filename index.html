@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parsonal Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/2d0d8e5a24.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- ==========================================home============================================================= -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/log.png"  class="logo" style="margin-top: 20px;">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p>Java Developer</p>
+                <h1>Hi, I'm<span> Shiv kumar</span><br> From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================================================about section====================================== -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.png" alt=""> 
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 18px;">Hello I'm Shiv Kumar Umar, an aspiring software developer and a recent graduate entering the dynamic world of technology. 
+                        With a passion for coding and problem-solving, I bring a fresh perspective and a hunger to learn and contribute. 
+                        My academic background has equipped me with a solid foundation in software development, and I am eager to apply my skills in real-world projects. 
+                        I am a quick learner, a team player, and committed to delivering high-quality solutions. 
+                        Excited about the endless possibilities in the ever-evolving tech landscape, I am ready to embark on a rewarding journey in software development.</p>
+                     <div class="tav-title">
+                        <p class="tab-link active-link" onclick="opentab('skill')">Skills</p>
+                        <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-link" onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skill">
+                        <ul>
+                            <li><span>BackEnd</span><br>Java, SpringBoot, SpringMVC, Microservices</li>
+                            <li><span>FrontEnd</span><br>HTML, CSS, Javascript, ReactJS</li>
+                            <li><span>Language</span><br>English, Hindi</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresher</span><br>Java developer</li>
+                          
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2026</span><br>Bachelor of Technology</li>
+                            <li><span>2022</span><br>Diploma</li>
+                            <li><span>2019</span><br>Intermediate</li>
+                            <li><span>2017</span><br>HighSchool</li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================services================================================ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Java developer</h2>
+                    <p>I have created many projects using Java technology and I want to share them with you.</p>
+                        <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Web developer</h2>
+                    <p>I have created many projects using fullstack technology and I want to share them with you.</p>
+                        <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-file-code"></i>
+                    <h2>UI/UX</h2>
+                    <p>I have created many projects using HTML,CSS,Javascript with framework and I want to share them with you.</p>
+                        <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!--================================================= portfolio ========================================== -->
+
+   <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work-1.png">
+                    <div class="layer">
+                        <h3>Office administrative service</h3>
+                        <p>This project is special for job seekers and corporate companies, 
+                            we can keep employee's data in it, we can add any news and 
+                            it has career page in which we can apply for job.</p>
+                           <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-2.png">
+                    <div class="layer">
+                        <h3>E Commerce</h3>
+                        <p>In this we can checkout and buy any e-commerce related item and 
+                            it also has a payment gateway.</p>
+                           <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-3.png">
+                    <div class="layer">
+                        <h3>Smart contact manager</h3>
+                        <p>In this we can save, delete and update contacts. 
+                            This is a unique project. 
+                            It has Java Springboot technology.</p>
+                           <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a> 
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+   </div>
+             <!-- ===============================================contact======================================== -->
+
+             <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-solid fa-envelope"></i>shivkumarumar0519@gmail.com</p>
+                            <p><i class="fa-solid fa-phone"></i>+91 8081-12040</p>
+                            <div class="social-icon">
+                                <a href="http://www.linkedin.com/in/shivkumarumar519"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=100065195085748&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/shivkumarumar_"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://wa.me/+918081012040"><i class="fa-brands fa-whatsapp"></i></a>
+                            </div>
+                            <a href="image/Shiv_CV.pdf" download class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text"  name="Name" placeholder="Your Name" required>
+                                <input type="email" name="Email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                <p>Copyright &copy Shiv kumar <i class="fa-solid fa-heart"></i></p>
+            </div>
+             </div>
+ <!-- =============================================script for links============================================================================= -->
+    <script>
+        var tablink=document.getElementsByClassName("tab-link");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablin of tablink){
+                tablin.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <!-- =======================================script for side open and close menu ==============================-->
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <!-- ========================================Script for save data in google docs============================================================== -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx1xH_oUFbiL7PIwtkuyoh9rXMF3Nbq0FRSKKCy1C5UNBKcQ-6y0Jc_dJeoU2dG42J1/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
